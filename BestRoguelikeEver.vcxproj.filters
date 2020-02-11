@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{9fca0961-c2cf-4a5e-92e3-70234e46fa2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{9fa22eb5-c2a7-4de4-8520-1ec3e6aff48e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Drawing">
+      <UniqueIdentifier>{dec1c8b4-0f9c-4b63-9588-12666c16f405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Loaders">
+      <UniqueIdentifier>{1365f49c-bac7-487c-a07e-e9f039fec042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Control">
+      <UniqueIdentifier>{d0e91b55-463f-4e06-b0bc-512b7d76ec82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{00fd1d1c-9d22-4fb2-9a8d-93b62abe9fc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{e58a35ba-3559-4940-b1de-66146522d816}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\shader.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="source\commandLine.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="source\controls.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\glad.c">
+      <Filter>Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="SOURCE\main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="source\view.cpp">
+      <Filter>Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="source\player.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="source\gameMap.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="source\textureLoader.cpp">
+      <Filter>Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="source\mapFragment.cpp">
+      <Filter>Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="source\physics.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="source\car.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="source\verticalLine.cpp">
+      <Filter>Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="source\point.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\shader.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="source\commandLine.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="source\controls.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="source\stb_image.h">
+      <Filter>Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="source\view.h">
+      <Filter>Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="source\player.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="source\gameMap.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="source\textureLoader.h">
+      <Filter>Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="source\mapFragment.h">
+      <Filter>Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="source\physics.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="source\car.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="source\verticalLine.h">
+      <Filter>Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="source\point.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="source\utility.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="source\basic_shader.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="source\basic_shader.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="source\text_shader.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="source\text_shader.vs">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
