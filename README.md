@@ -3,9 +3,7 @@
 A game based on popular "Hill Climb Racing".\
 In contrary to original version a car can be controlled by a **human player** and an **AI agent**.
 
-An agent learns how to drive using the **Q-Learning** algorithm.
-
-There are two types of maps: a flipped Gaussian curve and randomly generated.
+An agent learns how to drive using the **Q-Learning** algorithm. Maps are difficult enough so that they can't be driven by just accelerating right. There are two types of them: a flipped Gaussian curve and randomly generated. Of course, randomly generated maps are different every time.
 
 An application can be controlled with a command line and standard keyboard input.\
 Available commands are displayed in the terminal after starting a program. Later after typing executing `help`.
