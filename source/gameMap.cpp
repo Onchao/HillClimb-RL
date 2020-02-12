@@ -22,7 +22,7 @@ void GameMap::generateMap(int type)
 	fragments.clear();
 
 
-	if (type == 0)
+	if (type == 1)
 	{
 		numOfIntervals = 600;
 

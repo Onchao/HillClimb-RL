@@ -14,16 +14,7 @@ void Controls::c_mouse_button_callback(GLFWwindow* window, int button, int actio
 	{
 		double xpos;
 		double ypos;
-		glfwGetCursorPos(window, &xpos, &ypos);
-		
-		if (mode == gameMode::play)
-		{
-		}
-
-		if (mode == gameMode::map_editor)
-		{
-
-		}
+		glfwGetCursorPos(window, &xpos, &ypos);		
 	}
 }
 
@@ -84,7 +75,7 @@ void Controls::processInput(GLFWwindow* window)
 	double xpos;
 	double ypos;
 	glfwGetCursorPos(window, &xpos, &ypos);
-	int state = glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_MIDDLE);
+	int state = glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_RIGHT);
 	if (state == GLFW_PRESS)
 	{
 		view->setCameraFollow(false);
