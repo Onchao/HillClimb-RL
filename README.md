@@ -10,8 +10,7 @@ There are two types of maps: a flipped Gaussian curve and randomly generated.
 An application can be controlled with a command line and standard keyboard input.\
 Available commands are displayed in the terminal after starting a program. Later after typing executing `help`.
 
-In my project I used following libraries and published source code contains them: `OpenGL`, `GLFW`, `glad` `stb_image.h`, `FreeType`.\
-Fragments of code are from https://learnopengl.com/
+In my project I used following libraries and published source code contains them: `OpenGL`, `GLFW`, `glad` `stb_image.h`, `FreeType`. Fragments of code are from https://learnopengl.com/
 
 To start an application run following file:\
 `Release/HillClimbReinforcementLearning.exe`
