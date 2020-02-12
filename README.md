@@ -8,7 +8,7 @@ An agent learns how to drive using the **Q-Learning** algorithm.
 There are two types of maps: a flipped Gaussian curve and randomly generated.
 
 An application can be controlled with a command line and standard keyboard input `<-` `->` `c`.\
-Available commands are displayed in the terminal after starting a program. Later after typing executing `help`.
+Available commands are displayed in the terminal after starting a program. Later after typing executing `help` (soon).
 
 To start the application run following file:\
 `Release/HillClimbReinforcementLearning.exe`
