@@ -140,6 +140,29 @@ void CommandLine::prompt()
 }
 
 void CommandLine::printHelp()
-{
+{	
+	std::cout <<
+		"list of commands:\n"
+		"    help                  -   print help\n"
+		"    clear                 -   clear terminal\n"
+		"    fps                   -   toggle displaying fps\n\n"
+		
+		"    set random [number]   -   set probability of taking random action to [number]%\n"
+		"    reset max             -   reset reached maximum (green line)\n"
+		"    reset car             -   move car to starting position\n\n"
+
+		"    start player          -   start simulation with player control\n"
+		"    start ai              -   start simulation with AI control\n"
+		"    stop                  -   stop simulation\n\n"
+
+		"    generate random       -   generate random map\n"
+		"    generat gauss         -   generate gaussian flipped curve\n\n"
+
+		"other ingame controls:\n"
+		"    <-  ->   (arrows)     -   accelerate car left/right\n"
+		"    + -                   -   speed up / slow down animation speed (and learning)\n"
+		"    c                     -   toggle center camera on car\n"
+		"    right mouse button    -   move camera\n"
+		<< std::endl;
 }
 
