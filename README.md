@@ -15,4 +15,6 @@ In my project I used following libraries and published source code contains them
 To start an application run following file:\
 `Release/HillClimbReinforcementLearning.exe`
 
-![Screen from game](/graphics/rl.png)
+
+Screen from the game
+![Screen from the game](/graphics/rl.png)
