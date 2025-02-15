@@ -1,8 +1,8 @@
-# HillClimb-RL
+# HillClimb Reinforcement Learning
 
 This project is inspired by the popular mobile game _Hill Climb Racing_, with a key difference: the car can be controlled by either a **human player** or an **AI agent**.
 
-A key feature of the game is that **the map isn’t drivable by simply accelerating forward** - the car sometimes needs to drive backward to gain speed on downward slopes.
+A key feature of the game is that **the map isn't drivable by simply accelerating forward** - the car sometimes needs to drive backward to gain speed on downward slopes.
 
 ### Purpose
 This project was developed to:
